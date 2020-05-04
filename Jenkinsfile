@@ -35,7 +35,7 @@ environment{
         {
            steps{
                  script {
-                      docker.build registry + " :$BUILD_NUMBER"
+                      docker.build registry + ":$BUILD_NUMBER"
                    }
                }
          }
